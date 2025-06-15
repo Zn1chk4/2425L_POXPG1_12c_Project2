@@ -16,7 +16,7 @@ public class Inventory : MonoBehaviour
     {
         if (mushroomText != null)
         {
-            mushroomText.text = "mushrooms:  " + mushroomCount.ToString();
+            mushroomText.text = "Stars:  " + mushroomCount.ToString();
         }
     }
 }

@@ -14,7 +14,10 @@ public class PlayerHealth : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-
+    public float GetCurrentHealth()
+    {
+        return health;
+    }
     public void TakeDamage(float damage)
     {
         if (isDead) return;
